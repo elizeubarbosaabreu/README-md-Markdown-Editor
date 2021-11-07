@@ -108,6 +108,7 @@ menu = [
       'Inserir Código',
       '&Inserir Lista Simples',
       '&Inserir Lista Numerada',
+      '&Inserir Tabela',
       '&Copiar Texto',
       '&Colar Texto']
      ],
@@ -228,6 +229,23 @@ while True:
         text = clipboard.paste()
         conteudo += f' {text} '
         window['-output-'].update(conteudo)
+        
+    elif event in ('Inserir Tabela'):
+        conteudo = values['-output-']
+        sg.popup_timed('ATENÇÃO: Recurso em Teste', 'Só funciona no README.md do GitHub!!!') 
+        text = '\n\n'
+        col = int(sg.popup_get_text('Quantidade de colunas da talela', 'Quantidade de colunas da talela'))
+        row = int(sg.popup_get_text('Quantidade de linhas da talela', 'Quantidade de linhas da talela'))
+        # Gera as colunas da tabela        
+        text += ('| TEXTO ' * col) + '|\n' + ('| --- ' * col) + '|\n'
+        # gera as linhas da tabela
+        for r in range(row-1):
+            text += ('| TEXTO ' * col) + '|\n'            
+            
+        text += '\n\n'        
+           
+        conteudo += f'{text}'
+        window['-output-'].update(conteudo)  
     
     elif event in ('Inserir Código'):
         conteudo = values['-output-']

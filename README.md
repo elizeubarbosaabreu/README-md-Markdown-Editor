@@ -4,7 +4,7 @@
 
 ## O que é e para que serve o README.md - Markdown Editor?
 
-*README.md - Markdown Editor* é um software com interface gráfica feito inteiramente em python que facilita na hora de editar arquivos markdown em especial o README.md do GitHub.
+*README.md - Markdown Editor* é um software com interface gráfica feito inteiramente em python e [PySimpleGui](https://github.com/PySimpleGUI/PySimpleGUI) que tem por finalidade facilitar na hora de editar arquivos markdown em especial o README.md do GitHub.
 
 1. *README.md - Markdown Editor* converte e exporta arquivos markdown para *PDF* e *html* garantindo ganho de produtividade.
 

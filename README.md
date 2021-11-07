@@ -54,12 +54,10 @@ Pronto agora só usar o *README.md - Markdown Editor*:
  
 ~~~python
 
-Edite este texto
-aqui com seu código
+python app.py
 
 ~~~
  
-python app.py
 
 ## Dicas:
 * Ainda dentro da **env** instale o *pyinstaller* para transformar o app.py em executável. [Clique aqui](http://www.pyinstaller.org/) para saber mais

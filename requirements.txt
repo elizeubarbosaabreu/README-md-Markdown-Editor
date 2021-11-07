@@ -1,0 +1,9 @@
+clipboard==0.0.4
+importlib-metadata==4.8.1
+Markdown==3.3.4
+pdfkit==0.6.1
+pyperclip==1.8.2
+PySimpleGUI==4.53.0
+typing-extensions==3.10.0.2
+wkhtmltopdf==0.2
+zipp==3.6.0

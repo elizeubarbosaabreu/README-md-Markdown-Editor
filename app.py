@@ -115,10 +115,10 @@ menu = [
     ['&Visualizar',
      ['&Visualizar no Browser']
      ],
-    ['&Sobre o Autor',
-     ['&Linkedin',
-      '&GitHub'
-      ]      
+    ['&Ajuda',
+     ['&Manual do Markdown',
+      '&Linkedin',
+       '&GitHub']
      ]
     ]
 
@@ -136,7 +136,10 @@ while True:
     event, values = window.read()
     
     if event in ('Linkedin'):
-        webbrowser.open_new_tab('https://www.linkedin.com/in/elizeu-barbosa-abreu-69965b218/') 
+        webbrowser.open_new_tab('https://www.linkedin.com/in/elizeu-barbosa-abreu-69965b218/')
+    
+    elif event in ('Manual do Markdown'):
+        webbrowser.open_new_tab('https://www.markdownguide.org/basic-syntax/')
     
     elif event in ('Novo Arquivo'):
         window['-output-'].update('')

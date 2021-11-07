@@ -38,7 +38,7 @@ Se estiver usando o Windows o comando é um pouco diferente:
 
 cd README-md-Markdown-Editor
 python -m venv .venv
-source .\.venv\bin\activate.bat
+source .\.venv\Scripts\activate.bat
 
 ~~~
 

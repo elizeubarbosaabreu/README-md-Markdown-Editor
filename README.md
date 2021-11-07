@@ -1,6 +1,6 @@
 # README.md - Markdown Editor
 
-![Imagem](/home/pi/Desktop/MarkdownConverter/screenshot.png) 
+![Imagem](screenshot.png) 
 
 ## O que é e para que serve o README.md - Markdown Editor?
 

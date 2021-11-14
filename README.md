@@ -28,7 +28,7 @@ Em seguida navegue até dentro da pasta e crie um ambiente de desenvolvimento vi
 
 cd README-md-Markdown-Editor
 python3 -m venv .venv
-source ./.venv/bin/activate
+source .venv/bin/activate
 
 ~~~
 
@@ -38,7 +38,7 @@ Se estiver usando o Windows o comando é um pouco diferente:
 
 cd README-md-Markdown-Editor
 python -m venv .venv
-source .\.venv\Scripts\activate.bat
+source .venv\Scripts\activate.bat
 
 ~~~
 
